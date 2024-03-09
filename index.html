@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS RESET -->
+    <link
+      rel="stylesheet"
+      href="https://cdn:jsdelivr.nrt/npm/reset-css@3.0.0/reset.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Contact</title>
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <header>
+      <div id="nav-bar">
+        <img class="logo" src="./assets/logo.png" alt="" />
+        <img id="burger" src="./assets/Hamburger_icon.svg.png" alt="" />
+        <figure id="burgerClose"></figure>
+        <nav id="navigation">
+          <a href="">Home</a>
+          <a href="">About Me</a>
+          <a href="">Portfolio</a>
+          <a href="">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <section id="burgerMenu">
+      <nav id="burgerMenuNav">
+        <a href="">Home</a>
+        <a href="">About Me</a>
+        <a href="">Portfolio</a>
+        <a href="">Contact</a>
+      </nav>
+    </section>
+
+    <!-- NAV2 -->
+    <div>
+      <nav id="navi">
+        <a href=".about-me-cont">ABOUT</a>
+        <a href="#work">WORK</a>
+        <a href="#contact-me-cont">CONTACT</a>
+      </nav>
+    </div>
+
+    <!-- ABOUT ME -->
+    <div class="about-me-cont">
+      <div class="about-me">
+        <h1>ASHOK TAMANG</h1>
+        <!-- <p>
+          WHERE <br />
+          <span style="color: #008080">DOODLES</span> <br />
+          BECOME <br />
+          <span style="color: #008080">LOL</span>dles!
+        </p> -->
+        <p>
+          I <span style="color: #008080">DESIGN</span> <br />
+          YOU <span style="color: #008080">INTERACT</span>
+        </p>
+      </div>
+
+      <div class="about-me-content">
+        <h1>ABOUT ME</h1>
+        <p class="scroll-reveal">
+          I'm a
+          <span style="color: #008080">Visual Designer</span> - who is good at
+          some things & bad at others. But hey, that's what makes me unqiue, eh?
+          With strong focus on producing good shit & creating impactful experience.
+        </p>
+      </div>
+    </div>
+
+    <!-- WORK -->
+    <div class="work">
+      <h1>WHAT I DO</h1>
+      <p class="work-content">FRONT-END DEVELOPER</p>
+      <p class="work-content">VISUAL</p>
+      <p class="work-content">MOTION</p>
+      <p class="work-content">UX/UI</p>
+      <p class="work-content">DIGITAL ARTIST</p>
+    </div>
+    <!-- PORTFOLIO -->
+    <div class="portfolio">
+      <h1>PORTFOLIO</h1>
+      
+    </div>
+
+    <!-- SKILLS -->
+    <div id="skills">
+      <h1>SKILLS</h1>
+      <figure class="card">
+        <img src="assets/Premiere Pro.png" />
+      </figure>
+      <figure class="card">
+        <img src="assets/After Effects.png" />
+      </figure>
+      <figure class="card">
+        <img src="assets/Illustrator.png" />
+      </figure>
+      <figure class="card">
+        <img src="assets/Audition.png" />
+      </figure>
+      <figure class="card">
+        <img src="assets/Figma.png" />
+      </figure>
+      <figure class="card">
+        <img src="assets/Photoshop.png" />
+      </figure>
+    </div>
+
+    <!-- CONTACT ME -->
+    <div id="contact-me-cont">
+      <div class="contact-me-heading">
+        <h1>
+          CONNECT
+          <span
+            style="
+              color: #008080;
+              text-shadow: 5px 5px 0 rgba(16, 16, 16, 0.18);
+            "
+            ></span
+          >
+        </h1>
+        <!-- <h2>HI STRANGER!</h2>
+        <p>
+          Excited to connect! Drop me a line, and I'll get back to you with a
+          smile.
+        </p> -->
+      </div>
+
+      <!-- SIDE CAROUSEL -->
+      <div class="contact-me-info-cont">
+        <div class="contact-info-cont">
+          <!-- <div class="contact-info">
+            <h1>ABOUT <span style="color: #008080">ME</span></h1>
+            <p>Ashok Tamang</p>
+            <p>Interactive Media Designer</p>
+            <p>Brampton, ON</p>
+            <p>Canada</p>
+          </div> -->
+          <div class="contact-info">
+            <h1>EMAIL</h1>
+            <p>iashoktamang@gmail.com</p>
+            <p>atamang9@myseneca.ca</p>
+          </div>
+          <div class="contact-info">
+            <h1>SOCIALS</h1>
+            <a href="https://www.instagram.com/ashok.tamangg/" target="_blank"
+              ><img class="social" src="./assets/Instagram.png"
+            /></a>
+            <a href="https://www.linkedin.com/in/ashok-tamang/" target="_blank"
+              ><img class="social" src="./assets/LinkedIN.png"
+            /></a>
+          </div>
+          <div class="contact-info">
+            <h1>PHONE</h1>
+            <p>+1 (647) 465-2847</p>
+          </div>
+        </div>
+
+        <!-- INPUTS -->
+        <form class="contact-input-cont">
+          <div class="contact-input">
+            <input type="text" placeholder="First name*" required />
+            <p class="error-message">Please enter your First name</p>
+            <!-- next or previous to target siblings in JS -->
+          </div>
+
+          <div class="contact-input">
+            <input type="text" placeholder="Last name*" required />
+            <p class="error-message">Please enter your Last name</p>
+          </div>
+
+          <div class="contact-input">
+            <input type="text" placeholder="Email*" required />
+            <p class="error-message">Please enter your Email</p>
+          </div>
+
+          <div class="contact-input">
+            <input type="text" placeholder="Phone" />
+          </div>
+
+          <div class="contact-input">
+            <textarea
+              name="Message"
+              id=""
+              cols="30"
+              rows="2"
+              placeholder="Message"
+            ></textarea>
+          </div>
+
+          <div class="tandc">
+            <input checked="" class="check" type="checkbox">
+            <p>
+              by sending the messasge you accept the
+              <a
+                href="https://youtu.be/9rVKos-oGnQ?si=J2CkToUDJohuaKts&t=63"
+                target="_blank"
+                >terms and condition.</a
+              >
+            </p>
+          </div>
+
+
+          <!-- BUTTON -->
+          <input id="submitBTN" type="submit" value="Submit" />
+        </form>
+        <div id="pageCover">
+          <div id="confirmation">
+            <figure id="confirmationClose">
+              <img src="./assets/211652_close_icon.png" alt="close icon" />
+            </figure>
+            <p id="confirmationText"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- AUDIO -->
+    <audio id-="audioOnFocus" src="./sound/Click.mp3"></audio>
+
+    <!-- FOOTER -->
+    <!-- <div id="footer">
+      <div class="info">
+        <p>Copyright © Azh0k – 2024</p>
+      </div>
+    </div> -->
+
+    <!-- EXTERNAL JS -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
